@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dalyvavimo Apmokėjimas</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Dalyvavimo Apmokėjimas</h1>
+  </header>
+  <main>
+    <p class="page-text">Sekmadienio MIX C 12:00 - 14:00</p>
+    <p class="price">Kaina: 18€</p>
+    <p class="select">Pasirinkite apmokėjimo metodą</p>
+    <div class="payment-buttons">
+      <div class="payment-options">
+        <button onclick="window.location.href='https://revolut.me/ernest6sq'" class="payment-button revolut">
+          <img src="../source/revolut.png" alt="Revolut">
+        </button>
+        <button onclick="window.location.href='https://examplepayment2.com'" class="payment-button swedbank">
+          <img src="../source/swedbank.png" alt="Swedbank">
+        </button>
+      </div>
+    </div>
+    <p class="arba">Arba</p>
+    <div class="copy-text">
+      <p>ERNEST PAVLOV<br>LT617300010182620567</p>
+      <button onclick="copyText()">Kopijuoti rekvizitus</button>
+    </div>
+  </main>
+  <script>
+    function copyText() {
+      const text = document.querySelector('.copy-text p').innerText;
+      navigator.clipboard.writeText(text);
+    }
+  </script>
+</body>
+</html>
