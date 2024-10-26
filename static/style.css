@@ -93,12 +93,12 @@ main {
   max-height: 50px; /* Control height for uniform size */
 }
 
-.Revolut {
+.revolut {
   background: linear-gradient(135deg, #0074E4, #005BB5); /* Revolut blue gradient */
 }
 
-.Swedbank {
-  background: linear-gradient(135deg, #F6871F, #E05D1E), #008080;
+.swedbank {
+  background: #33333;
 }
 
 
