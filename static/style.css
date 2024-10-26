@@ -69,7 +69,7 @@ main {
 }
 
 .payment-button {
-  width: 90%;           /* Adjust width to remove extra space on the sides */
+  width: 80%;           /* Adjust width to remove extra space on the sides */
   max-width: 300px;     /* Optional max width */
   padding: 8px;
   border: none;
@@ -93,11 +93,11 @@ main {
   max-height: 50px; /* Control height for uniform size */
 }
 
-.revolut {
+.Revolut {
   background: linear-gradient(135deg, #0074E4, #005BB5); /* Revolut blue gradient */
 }
 
-.swedbank {
+.Swedbank {
   background: linear-gradient(135deg, #F6871F, #E05D1E), #008080;
 }
 
