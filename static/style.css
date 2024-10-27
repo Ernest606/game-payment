@@ -160,6 +160,33 @@ main {
   transform: scale(0.98);
 }
 
+.important-box {
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #3b3b3b; /* Darker background for contrast */
+  border-bottom: 5px solid #e67e22; /* Orange border to match the price color */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.important-box h2 {
+  font-size: 1.3em;
+  color: #e67e22; /* Match the orange color from the price */
+  margin-bottom: 15px;
+}
+
+.important-box p {
+  font-size: 1em;
+  color: #f0f0f0;
+}
+
+.important-box .bold {
+  margin-top: 5px;
+  font-size: 1em;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   main {
