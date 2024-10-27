@@ -57,10 +57,11 @@ main {
   font-weight: bold;
 }
 
-.page-time {
+.page-text-time {
   font-size: 1.2em;
   color: #ddd;
-  margin-bottom: 40px;
+  margin-top: 2px;
+  margin-bottom: 20px;
 }
 
 .price {
